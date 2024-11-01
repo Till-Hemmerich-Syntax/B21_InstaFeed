@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AccountView.swift
 //  B21_InstaFeed
 //
 //  Created by Till Hemmerich on 01.11.24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AccountView: View {
     var body: some View {
-       HomeView()
+        Text("AccountView")
     }
 }
 
 #Preview {
-    ContentView()
+    AccountView()
 }
